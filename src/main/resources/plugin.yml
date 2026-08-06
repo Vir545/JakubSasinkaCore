@@ -1,0 +1,117 @@
+# *   License: © 2026. ARR - All rights reserved unless explicitly stated.
+name: 'JakubSasinkaCore'
+version: '${version}'
+main: 'org.JakubSasinka.jakubSasinkaCore.JakubSasinkaCore'
+api-version: '1.21'
+load: 'POSTWORLD'
+prefix: 'JSCore'
+
+authors: ['Jakub Šašinka']
+description: 'JakubSasinkaCore - Plugin Core for minigames plugins, and more'
+website: 'https://modrinth.com/plugin/jakubsasinkacore'
+discord: 'https://discord.gg/nwVTHexjJc'
+
+soft-depend:
+  - PlaceholderAPI
+  - Residence
+  - VaultAPI
+  - DecentHolograms
+  - SkinsRestorer
+  - PluginUpdater
+
+commands:
+  JSC:
+    description: "Main command"
+    usage: "/jsc <commands>"
+    permission: "jakubsasinkacore.jsc"
+    aliases: ['jscore', 'jscr', 'jscreload', 'jscsettings', 'jscs', 'jscapi', 'jscp', 'jscplaceholders', 'jscarea', 'jakubsasinkacore', 'jakubsasinkastudios']
+  Ni:
+    description: "Night vision Infinite"
+    usage: "/ni"
+    permission: "jakubsasinkacore.admin"
+  Connection:
+    description: "Player connection"
+    usage: "/connection"
+    permission: "jakubsasinkacore.admin"
+  Manage:
+    description: "Manage"
+    usage: "/manage"
+    permission: "jakubsasinkacore.manage"
+  SQLite:
+    description: "Database sqlite"
+    usage: "/sqlite"
+    permission: "jakubsasinkacore.admin"
+
+permissions:
+  jakubsasinkacore.*:
+    description: "Allows to use all commands"
+    default: "op"
+    children:
+      jakubsasinkacore.admin: true
+      jakubtools.*: true
+      jakubtools.admin: true
+      fishing+.*: true
+      fishing+.admin: true
+  jakubsasinkacore.admin:
+    description: "Allows to use all commands"
+    default: "op"
+    children:
+      fishing+.*: true
+      fishing+.admin: true
+      jakubtools.*: true
+      jakubtools.admin: true
+      jakubsasinkacore.jsc: true
+      jakubsasinkacore.reload: true
+      jakubsasinkacore.settings: true
+      jakubsasinkacore.api: true
+      jakubsasinkacore.holograms: true
+      jakubsasinkacore.placeholders: true
+      jakubsasinkacore.connection: true
+      jakubsasinkacore.manage: true
+      jakubsasinkacore.user: true
+  jakubsasinkacore.jsc:
+    description: "Allows to use jsc"
+    default: "op"
+    children:
+      jakubsasinkacore.user: true
+  jakubsasinkacore.reload:
+    description: "Allows to use api commands"
+    default: "op"
+    children:
+      jakubsasinkacore.jsc: true
+  jakubsasinkacore.settings:
+    description: "Allows to use settings GUI"
+    default: "op"
+    children:
+      jakubsasinkacore.jsc: true
+  jakubsasinkacore.api:
+    description: "Allows to use api commands"
+    default: "op"
+    children:
+      jakubsasinkacore.jsc: true
+  jakubsasinkacore.area:
+    description: "Allows to manage area"
+    default: "op"
+    children:
+      jakubsasinkacore.jsc: true
+  jakubsasinkacore.holograms:
+    description: "Allows to <create|delete> holograms"
+    default: "op"
+    children:
+      jakubsasinkacore.jsc: true
+  jakubsasinkacore.placeholders:
+    description: "Allows to see placeholders"
+    default: "op"
+    children:
+      jakubsasinkacore.jsc: true
+  jakubsasinkacore.connection:
+    description: "Allows to use connection commands"
+    default: "op"
+  jakubsasinkacore.manage:
+    description: "Allows to use manage commands"
+    default: "op"
+    children:
+      jakubsasinkacore.jsc: true
+  jakubsasinkacore.user:
+    description: "Access to user common commands"
+    default: "op"

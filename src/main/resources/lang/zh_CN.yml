@@ -1,0 +1,234 @@
+# *   Config version 1.1.0
+#
+#     JakubSasinkaCore - Chinese Simplified (简体中文)
+#
+
+# ??? Some translations may not be perfect; thank you for your understanding.
+# ??? 部分翻译可能不够完美；感谢您的理解。
+# ++  Translated with DeepL / AI
+
+prefix: "JakubSasinkaCore"
+no_permission: "您无权使用此命令"
+
+admin:
+  reload: "配置已重新加载"
+  reload_error: "错误"
+  only_player: "此命令仅限玩家使用！"
+  not_enough_arguments: "参数不足！"
+  command_not_exist: "未找到该命令！"
+  plugin_not_found: "未找到插件"
+  must_be_number: "必须输入有效的数字！"
+  Not_found: "未找到。"
+  Registered: "已注册："
+  Player: "玩家"
+  coming_soon: "即将推出"
+  successful: "成功"
+  Installed_Version: "已安装版本"
+  Support_Versions: "支持的版本"
+  successful_by: "由...成功"
+  Website: "网站"
+  Currently_unavailable: "当前不可用"
+  player_not_found: "未找到玩家"
+  wrong_name: "名称错误"
+  more_than_720: "超过720分钟的内容不可用！"
+  Currently_in_Development: "目前正在开发中"
+  by: "从"
+  to: "到"
+  and: "和"
+  menu:
+    Plugins_GUI:
+      left_click: "左键单击"
+      right_click: "右键单击"
+      middle_click: "中键单击"
+      to_open_website: "将跳转至 modrinth。"
+      more_info: "了解更多信息。"
+      plugin_settings: "插件设置。"
+      isLanguageFile: "语言文件"
+      Value: "值"
+      Key: "键"
+      Locked: "已锁定"
+      Enter_Value: "请输入新值："
+      Successful_new_value: "新值已成功保存"
+    Admin_GUI:
+      left_click: "左键点击"
+      right_click: "右键点击"
+      middle_click: "中键点击"
+      more_info: "了解更多信息。"
+      stats: "查看统计数据。"
+      Information_book_name: "信息"
+      Information_book_info_1: "点击任意一项将完全清除"
+      Information_book_info_2: "该小游戏中的所有内容。"
+      Information_book_info_3: "请仅在必要时使用，保存"
+      Information_book_info_4: "删除前的备份，目前尚不可用！"
+      Information_book_info_5: "删除数据后，管理员的名称将记录在日志中，"
+      Information_book_info_6: "清除数据的日期和时间！"
+      Credits_Created: "创建者"
+      All_stats_name: "所有统计数据"
+      All_stats_info_1: "将清除所有迷你游戏中的数据！！"
+      All_stats_info_2: "请务必谨慎操作，否则将清除所有统计数据，"
+      All_stats_info_3: "目前尚无清除前的备份！"
+      Your_stats: "您的迷你游戏统计数据。"
+      Players_name: "玩家"
+      Players_info_1: "选择要显示的玩家。"
+      Players_info_2: "目前无法使用..."
+      Minigames_info_1: "重置进度"
+      Minigames_info_2: "所有玩家"
+      Minigames_info_3: "在迷你游戏中"
+      Progress_reset: "进度已重置"
+    Player_GUI:
+      Information_book_name: "信息"
+      Minigames_info_1: "重置进度"
+      Minigames_info_2: "在迷你游戏中"
+      Back_to_Admin_GUI: "返回管理员界面"
+      Statistics: "统计数据"
+      Statistics_for: "统计数据（针对）"
+      Target_player_not_found: "未找到目标玩家。"
+      Info:
+        Fish_Caught: "捕获的鱼"
+        Time: "时间"
+        SprintKm: "冲刺公里"
+        SprintM: "冲刺米"
+        Total_Meters: "总米数"
+    Manage:
+      restriction_01: "该功能目前无法使用，直至全面上线……，当前可访问的内容包括："
+      value: "数值"
+      caught: "已捕获"
+      total_caught: "总捕获量"
+      total_caught_02: "总共捕获"
+      ranking: "排名"
+      last_page: "上一页"
+      next_page: "下一页"
+      click_back: "点击返回"
+      click_continue: "点击继续"
+      mode: "模式"
+      total_players: "玩家总数"
+      page: "页面"
+      player_not_found: "未找到玩家。"
+      only_player: "此功能仅限玩家使用！"
+  file:
+    log_open: "打开了小游戏界面。"
+    Error_save_01: "保存时出错"
+    Error_save_02: "备份！"
+    Error_save_03: "逻辑值无效"
+    Error_save_04: "整数无效"
+    Error_save_05: "小数无效"
+    Error_save_06: "数字无效"
+    Delete: "已删除"
+    Data: "数据。"
+    All_Data: "全部"
+    all: "全部"
+  Area:
+    wrong_minigame_name: "迷你游戏名称错误。"
+    exist: "该竞技场已存在。"
+    not_exist: "该竞技场不存在！"
+    save: "保存"
+    click_to_save: "点击保存"
+    exit: "退出"
+    exit_editor: "退出竞技场编辑器"
+    created: "已创建！"
+    deleted: "已删除！"
+    input_all: "请填写所有内容！"
+    input_coordinates: "请填写坐标"
+    used: "已使用"
+    Not_set: "未设置"
+
+General:
+  Rank: "排名"
+  Coins: "金币"
+  Coin: "金币"
+  Points: "积分"
+  Point: "积分"
+  Luck: "运气"
+  Lure: "鱼饵"
+  Statistics: "统计数据"
+  caught_fish: "已捕获的鱼"
+
+Rank:
+  Player: "Player"
+  Beginner: "Beginner"
+  Newcomer: "Newcomer"
+  Advanced: "Advanced"
+  Experienced: "Experienced"
+  Master: "Master"
+  The_Legendary_Fisherman: "The Legendary Fisherman"
+
+placeholders:
+  Index_out_of_range: "索引超出范围"
+
+
+# *   Config version 1.1.0
+#
+#     JakubTools - Chinese (中文)
+#
+
+JakubTools_prefix: "JakubTools"
+
+JakubTools_admin:
+  invalid_gamemode_in_db: "数据库中存在无效的游戏模式"
+
+
+# *   Config version 1.1.0
+#
+#     Fishing+ - Chinese (中文)
+#
+
+fishing_prefix: "Fishing+"
+
+fishing_admin:
+  reload: "reload"
+  only_player: "此命令仅限玩家使用"
+  this_only_in_fishing_area: "此命令仅可在钓鱼区域使用！"
+  not_enough_arguments: "参数不足！"
+  command_not_exist: "未找到该命令！"
+  must_be_number: "必须输入有效的数字！"
+  more_than_600: "超过600s的功能尚未开放！"
+  already_have: "您已经启用了一个调试功能！"
+  Registered: "已注册："
+  Not_found: "未找到。"
+  Player: "玩家"
+  end: "结束！"
+  items: "物品。"
+  all: "总计"
+  will_end_in: "将在"
+  msg_01: "哇哦…… 现在看起来好像你黑了游戏……其实也不是。你捡到了一本特殊的附魔书，价值100点/金币！"
+  msg_02: "天啊……看来我是运气好过脑子，这件战利品至少值10倍的点数/金币！！！"
+  msg_03: "哇哦……这真是件绝佳的战利品，价值至少是原分的3倍！"
+  msg_04: "啊……这是件破损的战利品，价值至少要少2倍……"
+
+Pirate:
+  name: "海盗"
+  time: "10秒后刷新"
+  took_you: "拿走了你的"
+  didnt_took_you: "没拿走你的"
+  poins_coins: "积分/金币。"
+
+Hotbar:
+  Hotbar_item_Description: "通过丢弃或右键点击打开。"
+  Fishing-rod: "钓鱼竿"
+  Shop: "渔具商店"
+  Effects: "特效"
+  Statistics: "统计数据"
+  Leave: "离开"
+
+Shop:
+  buy: "购买"
+  success: "购买成功。"
+  not_enough_coins: "金币不足..."
+  Description: "购买需要"
+  Next_level: "下一关"
+  Current_level: "当前关卡"
+  Max_level: "你已达到最高关卡。"
+
+Statistics:
+  Name: "总捕获量"
+  Total_catch: "你总共捕获了"
+  Value: "数值"
+  Catch: "已捕获"
+
+Effects:
+  Name: "特效"
+  Need_1: "需要"
+  Need_2: "捕获的鱼"
+  locked: "已锁定"
+  unlocked: "已解锁"
+  active: "已激活"

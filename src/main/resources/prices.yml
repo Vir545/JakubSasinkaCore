@@ -1,0 +1,10 @@
+# *   Config version 1.1.0
+# *   Minecraft versions:
+# *     Build: 1.21.11
+# *     Tested: 26.2, 26.1.x, 1.21.11-1.21.1
+
+# ?     JakubSasinkaCore - Custom Permissions
+
+Fishing:
+  Luck_prices: [200, 400, 800, 1600, 3200, 6400, 10000, 15000, 20000, 30000, 50000]
+  Lure_prices: [200, 400, 800, 1600, 3200, 6400, 10000, 15000, 20000, 30000, 50000]

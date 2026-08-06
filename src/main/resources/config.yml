@@ -1,0 +1,73 @@
+# *   Config version 1.1.0
+# *   Minecraft versions:
+# *     Build: 1.21.11
+# *     Tested: 26.2, 26.1.x, 1.21.11-1.21.1
+
+# ?     JakubSasinkaCore
+
+settings:
+  name: "X"
+  version: "1.0.0"
+  supported: "1.21.x"
+  created: "1.21.x"
+  build: "B100"
+  Language: "en_US"
+  update-check: true
+  update-check-notify: true
+
+Database:
+  # Database type: none (Minecraft scoreboard), SQLite, MariaDB, MySQL, OFF (Disable storage)
+  type: "SQLite"
+  host: "localhost"
+  port: 3306
+  database: "database"
+  username: "root"
+  password: "127001"
+
+Admin:
+  Permissions:
+#   If the value is "true", the permission settings from the permissions.yml file are used instead of the default permissions.
+    custom-permissions: false
+  manage:
+#   Enable or disable the "specific only" mode for the /manage command
+    restriction: false
+#    You can add specific users who have permissions to use /manage the system. (They must have either the "OP" or "jakubsasinkacore.admin" permission.)
+    players:
+      - "Admin"
+      - "Mod"
+  JakubTools_GM:
+    #   Enable or disable the "specific only" mode for the /gm commands
+    restriction: false
+    players:
+      - "Admin"
+      - "Mod"
+
+Minigames:
+  Lobby:
+    world: "spawn"
+    loc: "0,250,0"
+  Fishing:
+    prefix: "§e[§b?§e] "
+    Locations:
+      Location1:
+        pirate: "39,222,-37"
+        world: "spawn"
+        pos1: "23,230,-9"
+        pos2: "83,218,-65"
+      Loc2:
+        pirate: "39,222,-37"
+        world: "spawn"
+        pos1: "23,230,-9"
+        pos2: "83,218,-65"
+  SpeedRun:
+    Locations:
+      Location1:
+        world: "spawn"
+        pos1: "0,250,0"
+        pos2: "0,250,0"
+  Archery:
+    Locations:
+      Location1:
+        world: "spawn"
+        pos1: "0,250,0"
+        pos2: "0,250,0"

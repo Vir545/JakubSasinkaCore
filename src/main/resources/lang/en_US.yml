@@ -1,0 +1,234 @@
+# *   Config version 1.1.0
+#
+#     JakubSasinkaCore - English (English)
+#
+
+# ??? Some translations may not be perfect; thank you for your understanding.
+# ??? Some translations may not be perfect; thank you for your understanding.
+
+
+prefix: "JakubSasinkaCore"
+no_permission: "You do not have permission to use this command"
+
+admin:
+  reload: "config reloaded"
+  reload_error: "error"
+  only_player: "Only players can use this command"
+  not_enough_arguments: "Not enough arguments!"
+  command_not_exist: "Command not found!"
+  plugin_not_found: "The plugin was not found"
+  must_be_number: "You must enter a valid number!"
+  Not_found: "Not found."
+  Registered: "Registered: "
+  Player: "Player"
+  coming_soon: " Coming soon"
+  successful: "Successful"
+  Installed_Version: "Installed Version"
+  Support_Versions: "Supported Versions"
+  successful_by: "Successful by"
+  Website: "Website"
+  Currently_unavailable: "Currently unavailable"
+  player_not_found: "Player not found"
+  wrong_name: "Invalid name"
+  more_than_720: "More than 720 minutes are not available!"
+  Currently_in_Development: "Currently in Development"
+  by: "from"
+  to: "to"
+  and: "and"
+  menu:
+    Plugins_GUI:
+      left_click: "Left-click"
+      right_click: "Right-click"
+      middle_click: "Middle-click"
+      to_open_website: "will take you to modrinth."
+      more_info: "for more information."
+      plugin_settings: "for plugin settings."
+      isLanguageFile: "Language File"
+      Value: "Value"
+      Key: "Key"
+      Locked: "Locked"
+      Enter_Value: "Enter a new value:"
+      Successful_new_value: "New value successfully saved"
+    Admin_GUI:
+      left_click: "Left-click"
+      right_click: "Right-click"
+      middle_click: "Middle-click"
+      more_info: "for more information."
+      stats: "for statistics."
+      Information_book_name: "Information"
+      Information_book_info_1: "Clicking any of these will completely clear"
+      Information_book_info_2: "everything from the given minigame."
+      Information_book_info_3: "Please use only when necessary, save"
+      Information_book_info_4: "backup before deletion; does not work yet!"
+      Information_book_info_5: "After deleting data, the Admin's name,"
+      Information_book_info_6: "date, and time of deletion are logged!"
+      Credits_Created: "Created by"
+      All_stats_name: "All Stats"
+      All_stats_info_1: "Deleting all data in the mini-games!!"
+      All_stats_info_2: "Please be careful, or you will delete all stats,"
+      All_stats_info_3: "Backups are not yet available before deletion!"
+      Your_stats: "Your minigame statistics."
+      Players_name: "Players"
+      Players_info_1: "Select the player you want to view."
+      Players_info_2: "Currently not working..."
+      Minigames_info_1: "Resets progress"
+      Minigames_info_2: "for all players"
+      Minigames_info_3: "in the minigame"
+      Progress_reset: "Progress reset"
+    Player_GUI:
+      Information_book_name: "Information"
+      Minigames_info_1: "Resets progress"
+      Minigames_info_2: "in the minigame"
+      Back_to_Admin_GUI: "Return to Admin GUI"
+      Statistics: "Statistics"
+      Statistics_for: "Statistics for"
+      Target_player_not_found: "Target player not found."
+      Info:
+        Fish_Caught: "Fish Caught"
+        Time: "Time"
+        SprintKm: "SprintKm"
+        SprintM: "SprintM"
+        Total_Meters: "Total Meters"
+    Manage:
+      restriction_01: "Function currently unavailable until fully operational...., Access is currently available for:"
+      value: "Value"
+      caught: "Has caught"
+      total_caught: "Total Caught"
+      total_caught_02: "Total Caught"
+      ranking: "Ranking"
+      last_page: "Previous Page"
+      next_page: "Next Page"
+      click_back: "Click to go back"
+      click_continue: "Click to continue"
+      mode: "Mode"
+      total_players: "Total Players"
+      page: "Page"
+      player_not_found: "Player not found."
+      only_player: "Only the player can use this feature!"
+  file:
+    log_open: "Opened Minigames GUI."
+    Error_save_01: "Error saving"
+    Error_save_02: "backup!"
+    Error_save_03: "Invalid boolean value."
+    Error_save_04: "Invalid integer."
+    Error_save_05: "Invalid decimal number."
+    Error_save_06: "Invalid long number."
+    Delete: "Deleted"
+    Data: "Data."
+    All_Data: "All"
+    all: "All"
+  Area:
+    wrong_minigame_name: "Incorrect minigame name."
+    exist: "This arena already exists."
+    not_exist: "This arena does not exist!"
+    save: "Save"
+    click_to_save: "Click to save"
+    exit: "Exit"
+    exit_editor: "Exit arena editor"
+    created: "Created!"
+    deleted: "Deleted!"
+    input_all: "Fill in everything!"
+    input_coordinates: "Enter coordinates for"
+    used: "Used"
+    Not_set: "Not set"
+
+General:
+  Rank: "Rank"
+  Coins: "Coins"
+  Coin: "Coin"
+  Points: "Points"
+  Point: "Point"
+  Luck: "Luck"
+  Lure: "Lure"
+  Statistics: "Statistics"
+  caught_fish: "Caught Fish"
+
+Rank:
+  Player: "Player"
+  Beginner: "Beginner"
+  Newcomer: "Newcomer"
+  Advanced: "Advanced"
+  Experienced: "Experienced"
+  Master: "Master"
+  The_Legendary_Fisherman: "The Legendary Fisherman"
+
+placeholders:
+  Index_out_of_range: "Index out of range"
+
+
+# *   Config version 1.1.0
+#
+#     JakubTools + - Czech
+#
+
+JakubTools_prefix: "JakubTools"
+
+JakubTools_admin:
+  invalid_gamemode_in_db: “Invalid game mode in the database”
+
+
+# *   Config version 1.1.0
+#
+#     Fishing+ - Czech
+#
+
+fishing_prefix: "Fishing+"
+
+fishing_admin:
+  reload: "reload"
+  only_player: "Only the player can use this command"
+  this_only_in_fishing_area: "You can only use this command in the fishing area!"
+  not_enough_arguments: "Not enough arguments!"
+  command_not_exist: "Command not found!"
+  must_be_number: "You must enter a valid number!"
+  more_than_600: "More than 600s is not available!"
+  already_have: "You already have one Debug enabled!"
+  Registered: "Registered: "
+  Not_found: "Not found."
+  Player: "Player"
+  end: "The end!"
+  items: "items."
+  all: "Total"
+  will_end_in: "ends in"
+  msg_01: "WOOOOW... It looks like you've hacked the game. .... Or actually, no. You’ve found a special Enchanted Book. Worth 100 Points/Coins!"
+  msg_02: "Omg... Looks like I’m luckier than I am smart—this loot is worth at least 10x as many Points/Coins!!!"
+  msg_03: "Wooa... This is a beautiful piece of loot; it’ll be worth about 3x as many Points/Coins!"
+  msg_04: "Ahh... this is damaged loot; it’ll be worth at least half as many Points/Coins..."
+
+Pirate:
+  name: "Pirate"
+  time: "Spawns in 10 seconds"
+  took_you: "took from you"
+  didnt_took_you: "didn't take any from you"
+  poins_coins: "Points/Coins."
+
+Hotbar:
+  Hotbar_item_Description: "Open by throwing or right-clicking."
+  Fishing-rod: "Fishing Rod"
+  Shop: "Fishing Shop"
+  Effects: "Effects"
+  Statistics: "Statistics"
+  Leave: "Leave"
+
+Shop:
+  buy: "Purchase"
+  success: "Successful."
+  not_enough_coins: "Not enough coins..."
+  Description: "Required to purchase"
+  Next_level: "Next Level"
+  Current_level: "Current Level"
+  Max_level: "You have reached the maximum level."
+
+Statistics:
+  Name: "Total Catch"
+  Total_catch: "Your total catch"
+  Value: "Value"
+  Catch: "You have caught"
+
+Effects:
+  Name: "Effects"
+  Need_1: "Required"
+  Need_2: "Caught Fish"
+  locked: "Locked"
+  unlocked: "Unlocked"
+  active: "Active"

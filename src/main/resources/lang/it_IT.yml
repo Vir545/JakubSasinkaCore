@@ -1,0 +1,234 @@
+# *   Config version 1.1.0
+#
+#     JakubSasinkaCore - Italian (Italiano)
+#
+
+# ??? Some translations may not be perfect; thank you for your understanding.
+# ??? Alcune traduzioni potrebbero non essere perfette; grazie per la comprensione.
+# ++  Translated with DeepL / AI
+
+prefix: "JakubSasinkaCore"
+no_permission: "Non hai i permessi per utilizzare questo comando"
+
+admin:
+  reload: "configurazione ricaricata"
+  reload_error: "errore"
+  only_player: "Questo comando può essere utilizzato solo dal giocatore!"
+  not_enough_arguments: "Argomenti insufficienti!"
+  command_not_exist: "Comando non trovato!"
+  plugin_not_found: "Plugin non trovato"
+  must_be_number: "Devi inserire un numero valido!"
+  Not_found: "Non trovato."
+  Registered: "Registrato: "
+  Player: "Giocatore"
+  coming_soon: "Prossimamente"
+  successful: "Con successo"
+  Installed_Version: "Versione installata"
+  Support_Versions: "Versioni supportate"
+  successful_by: "Con successo da"
+  Website: "Sito web"
+  Currently_unavailable: "Attualmente non disponibile"
+  player_not_found: "Giocatore non trovato"
+  wrong_name: "Nome errato"
+  more_than_720: "Non sono disponibili più di 720 minuti!"
+  Currently_in_Development: "Attualmente in fase di sviluppo"
+  by: "da"
+  to: "a"
+  and: "e"
+  menu:
+    Plugins_GUI:
+      left_click: "Clicca con il tasto sinistro"
+      right_click: "Clicca con il tasto destro"
+      middle_click: "Clicca con il tasto centrale"
+      to_open_website: "per accedere a modrinth."
+      more_info: "per ulteriori informazioni."
+      plugin_settings: "per le impostazioni del plugin. "
+      isLanguageFile: "File di lingua"
+      Value: "Valore"
+      Key: "Chiave"
+      Locked: "Bloccato"
+      Enter_Value: "Inserisci il nuovo valore:"
+      Successful_new_value: "Nuovo valore salvato con successo"
+    Admin_GUI:
+      left_click: "Clicca con il tasto sinistro"
+      right_click: "Clicca con il tasto destro"
+      middle_click: "Clicca con il tasto centrale"
+      more_info: "per ulteriori informazioni."
+      stats: "per le statistiche."
+      Information_book_name: "Informazioni"
+      Information_book_info_1: "Cliccando su uno qualsiasi di essi, verrà cancellato completamente"
+      Information_book_info_2: "tutto ciò che riguarda quel minigioco."
+      Information_book_info_3: "Si prega di utilizzare solo quando necessario, il salvataggio"
+      Information_book_info_4: "di un backup prima della cancellazione, al momento non funziona!"
+      Information_book_info_5: "Dopo la cancellazione dei dati, nel log vengono registrati il nome dell'amministratore,"
+      Information_book_info_6: "la data e l'ora in cui i dati sono stati cancellati!"
+      Credits_Created: "Creato da"
+      All_stats_name: "Tutte le statistiche"
+      All_stats_info_1: "Cancellazione di tutti i dati nei minigiochi!!"
+      All_stats_info_2: "Si prega di prestare attenzione, altrimenti si cancelleranno tutte le statistiche,"
+      All_stats_info_3: "I backup prima della cancellazione non sono ancora disponibili!"
+      Your_stats: "Le tue statistiche dei minigiochi."
+      Players_name: "Giocatori"
+      Players_info_1: "Seleziona il giocatore che desideri visualizzare."
+      Players_info_2: "Al momento non è funzionante..."
+      Minigames_info_1: "Azzererà i progressi"
+      Minigames_info_2: "di tutti i giocatori"
+      Minigames_info_3: "nel minigioco"
+      Progress_reset: "Progresso azzerato"
+    Player_GUI:
+      Information_book_name: "Informazioni"
+      Minigames_info_1: "Azzererà il progresso"
+      Minigames_info_2: "nel minigioco"
+      Back_to_Admin_GUI: "Torna alla GUI di amministrazione"
+      Statistics: "Statistiche"
+      Statistics_for: "Statistiche per"
+      Target_player_not_found: "Giocatore di destinazione non trovato."
+      Info:
+        Fish_Caught: "Pesci catturati"
+        Time: "Tempo"
+        SprintKm: "SprintKm"
+        SprintM: "SprintM"
+        Total_Meters: "Metri totali"
+    Manage:
+      restriction_01: "Funzione attualmente non disponibile fino alla piena operatività...., L'accesso è attualmente attivo per:"
+      value: "Valore"
+      caught: "Ha catturato"
+      total_caught: "Totale catturato"
+      total_caught_02: "Ha catturato in totale"
+      ranking: "Classifica"
+      last_page: "Pagina precedente"
+      next_page: "Pagina successiva"
+      click_back: "Clicca per tornare indietro"
+      click_continue: "Clicca per continuare"
+      mode: "Modalità"
+      total_players: "Totale giocatori"
+      page: "Pagina"
+      player_not_found: "Giocatore non trovato."
+      only_player: "Questa funzione può essere utilizzata solo dal giocatore!"
+  file:
+    log_open: "Ha aperto l'interfaccia grafica dei minigiochi."
+    Error_save_01: "Errore durante il salvataggio"
+    Error_save_02: "del backup!"
+    Error_save_03: "Valore logico non valido."
+    Error_save_04: "Numero intero non valido."
+    Error_save_05: "Numero decimale non valido."
+    Error_save_06: "Numero non valido."
+    Delete: "Ha cancellato"
+    Data: "dati."
+    All_Data: "Tutti"
+    all: "Tutti"
+  Area:
+    wrong_minigame_name: "Nome del minigioco errato."
+    exist: "Questa arena esiste già."
+    not_exist: "Questa arena non esiste!"
+    save: "Salva"
+    click_to_save: "Clicca per salvare"
+    exit: "Esci"
+    exit_editor: "Chiudi l'editor dell'arena"
+    created: "Creata!"
+    deleted: "Eliminata!"
+    input_all: "Compila tutti i campi!"
+    input_coordinates: "Inserisci le coordinate per"
+    used: "Utilizzato"
+    Not_set: "Non impostato"
+
+General:
+  Rank: "Rank"
+  Coins: "Monete"
+  Coin: "Moneta"
+  Points: "Punti"
+  Point: "Punto"
+  Luck: "Fortuna"
+  Lure: "Esca"
+  Statistics: "Statistiche"
+  caught_fish: "Pesci catturati"
+
+Rank:
+  Player: "Player"
+  Beginner: "Beginner"
+  Newcomer: "Newcomer"
+  Advanced: "Advanced"
+  Experienced: "Experienced"
+  Master: "Master"
+  The_Legendary_Fisherman: "The Legendary Fisherman"
+
+placeholders:
+  Index_out_of_range: "Indice fuori intervallo"
+
+
+# *   Config version 1.1.0
+#
+#     JakubTools - Italian (Italiano)
+#
+
+JakubTools_prefix: "JakubTools"
+
+JakubTools_admin:
+  invalid_gamemode_in_db: "Modalità di gioco non valida nel database"
+
+
+# *   Config version 1.1.0
+#
+#     Fishing+ - Italian (Italiano)
+#
+
+fishing_prefix: "Fishing+"
+
+fishing_admin:
+  reload: "reload"
+  only_player: "Questo comando può essere utilizzato solo dal giocatore"
+  this_only_in_fishing_area: "Questo comando può essere utilizzato solo nell'area di pesca!"
+  not_enough_arguments: "Argomenti insufficienti!"
+  command_not_exist: "Comando non trovato!"
+  must_be_number: "Devi inserire un numero valido!"
+  more_than_600: "Non è consentito superare i 600 secondi!"
+  already_have: "Hai già attivato un Debug!"
+  Registered: "Registrato: "
+  Not_found: "Non trovato."
+  Player: "Giocatore"
+  end: "Fine!"
+  items: "oggetti."
+  all: "In totale"
+  will_end_in: "finirà tra"
+  msg_01: "WOOOOW... Sembra proprio che tu abbia hackerato il gioco. .... O forse no. Hai trovato uno speciale Libro Incantato. Con un valore di 100 Punti/Monete!"
+  msg_02: "Omg... Sembra che io abbia più fortuna che buon senso, questo bottino varrà almeno 10 volte tanto in Punti/Monete!!!"
+  msg_03: "Wooa... Questo è un bottino fantastico, varrà almeno 3 volte tanto in Punti/Monete!"
+  msg_04: "Ahh... questo è un bottino danneggiato, varrà almeno la metà in Punti/Monete..."
+
+Pirate:
+  name: "Pirata"
+  time: "Spawnerà tra 10 secondi"
+  took_you: "te ne ha preso"
+  didnt_took_you: "non te ne ha preso nessuno"
+  poins_coins: "Punti/Monete."
+
+Hotbar:
+  Hotbar_item_Description: "Si apre lanciando l'oggetto o cliccando con il tasto destro."
+  Fishing-rod: "Canna da pesca"
+  Shop: "Negozio di pesca"
+  Effects: "Effetti"
+  Statistics: "Statistiche"
+  Leave: "Esci"
+
+Shop:
+  buy: "Acquista"
+  success: "Acquisto completato."
+  not_enough_coins: "Monete insufficienti..."
+  Description: "Per l'acquisto è necessario"
+  Next_level: "Livello successivo"
+  Current_level: "Livello attuale"
+  Max_level: "Hai raggiunto il livello massimo."
+
+Statistics:
+  Name: "Totale catture"
+  Total_catch: "Hai catturato in totale"
+  Value: "Valore"
+  Catch: "Hai catturato"
+
+Effects:
+  Name: "Effetti"
+  Need_1: "Necessario"
+  Need_2: "Pesci catturati"
+  locked: "Bloccato"
+  unlocked: "Sbloccato"
+  active: "Attivato"

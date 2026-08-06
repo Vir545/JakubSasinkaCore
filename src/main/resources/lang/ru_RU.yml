@@ -1,0 +1,234 @@
+# *   Config version 1.1.0
+#
+#     JakubSasinkaCore - Russian (Русский язык)
+#
+
+# ??? Some translations may not be perfect; thank you for your understanding.
+# ??? Некоторые переводы могут быть неидеальными; благодарим за понимание.
+# ++  Translated with DeepL / AI
+
+prefix: "JakubSasinkaCore"
+no_permission: "У вас нет прав на использование этой команды"
+
+admin:
+  reload: "Конфигурация перезагружена"
+  reload_error: "Ошибка"
+  only_player: "Эту команду может использовать только игрок!"
+  not_enough_arguments: "Недостаточно аргументов!"
+  command_not_exist: "Команда не найдена!"
+  plugin_not_found: "Плагин не найден"
+  must_be_number: "Необходимо ввести действительное число!"
+  Not_found: "не найдено."
+  Registered: "Зарегистрировано: "
+  Player: "Игрок"
+  coming_soon: "Скоро"
+  successful: "Успешно"
+  Installed_Version: "Установленная версия"
+  Support_Versions: "Поддерживаемые версии"
+  successful_by: "Успешно выполнено"
+  Website: "Веб-сайт"
+  Currently_unavailable: "В настоящее время недоступно"
+  player_not_found: "Игрок не найден"
+  wrong_name: "Неверное имя"
+  more_than_720: "Более 720 минут недоступно!"
+  Currently_in_Development: "В настоящее время в разработке"
+  by: "от"
+  to: "до"
+  and: "и"
+  menu:
+    Plugins_GUI:
+      left_click: "Щелкните левой кнопкой"
+      right_click: "Щелкните правой кнопкой"
+      middle_click: "Щелкните средней кнопкой"
+      to_open_website: "перейдёте на modrinth."
+      more_info: "для получения дополнительной информации."
+      plugin_settings: "для настроек плагина."
+      isLanguageFile: "Языковой файл"
+      Value: "Значение"
+      Key: "Ключ"
+      Locked: "Заблокировано"
+      Enter_Value: "Введите новое значение:"
+      Successful_new_value: "Новое значение успешно сохранено"
+    Admin_GUI:
+      left_click: "Щелкните левой кнопкой"
+      right_click: "Щелкните правой кнопкой"
+      middle_click: "Щелкните средней кнопкой"
+      more_info: "для получения дополнительной информации."
+      stats: "для статистики."
+      Information_book_name: "Информация"
+      Information_book_info_1: "При нажатии на любую из них полностью удаляется"
+      Information_book_info_2: "всё из данной мини-игры."
+      Information_book_info_3: "Пожалуйста, используйте только при необходимости, сохранение"
+      Information_book_info_4: "резервную копию перед удалением, пока не работает!"
+      Information_book_info_5: "После удаления данных в журнал записывается имя администратора,"
+      Information_book_info_6: "дата и время удаления данных!"
+      Credits_Created: "Создал"
+      All_stats_name: "Все статистические данные"
+      All_stats_info_1: "Удаление всех данных в мини-играх!!"
+      All_stats_info_2: "Пожалуйста, будьте осторожны, иначе вы удалите всю статистику,"
+      All_stats_info_3: "резервные копии перед удалением пока недоступны!"
+      Your_stats: "Ваша статистика по мини-играм".
+      Players_name: "Игроки"
+      Players_info_1: "Выбор игрока, которого вы хотите отобразить".
+      Players_info_2: "В данный момент не работает..."
+      Minigames_info_1: "Сбросит прогресс"
+      Minigames_info_2: "всех игроков"
+      Minigames_info_3: "в мини-игре"
+      Progress_reset: "Прогресс сброшен"
+    Player_GUI:
+      Information_book_name: "Информация"
+      Minigames_info_1: "Сбросит прогресс"
+      Minigames_info_2: "в мини-игре"
+      Back_to_Admin_GUI: "Вернуться в интерфейс администратора"
+      Statistics: "Статистика"
+      Statistics_for: "Статистика для"
+      Target_player_not_found: "Целевой игрок не найден."
+      Info:
+        Fish_Caught: "Пойманные рыбы"
+        Time: "Время"
+        SprintKm: "Спринт (км)"
+        SprintM: "Спринт (м)"
+        Total_Meters: "Всего метров"
+    Manage:
+      restriction_01: "Функция временно недоступна до полного запуска... ..., Доступ в настоящее время доступен для:"
+      value: "Значение"
+      caught: "Поймал"
+      total_caught: "Всего поймано"
+      total_caught_02: "Всего поймано"
+      ranking: "Рейтинг"
+      last_page: "Предыдущая страница"
+      next_page: "Следующая страница"
+      click_back: "Нажмите, чтобы вернуться"
+      click_continue: "Нажмите, чтобы продолжить"
+      mode: "Режим"
+      total_players: "Всего игроков"
+      page: "Страница"
+      player_not_found: "Игрок не найден."
+      only_player: "Эту функцию может использовать только игрок!"
+  file:
+    log_open: "Открыл интерфейс Minigames."
+    Error_save_01: "Ошибка при сохранении"
+    Error_save_02: "резервной копии!"
+    Error_save_03: "Недопустимое логическое значение".
+    Error_save_04: "Недопустимое целое число".
+    Error_save_05: "Недопустимое десятичное число".
+    Error_save_06: "Недопустимое число".
+    Delete: "удалил"
+    Data: "данные."
+    All_Data: "Все"
+    all: "Все"
+  Area:
+    wrong_minigame_name: "Неверное название мини-игры."
+    exist: "Эта арена уже существует."
+    not_exist: "Эта арена не существует!"
+    save: "Сохранить"
+    click_to_save: "Нажмите, чтобы сохранить"
+    exit: "Выйти"
+    exit_editor: "Закрыть редактор арены"
+    created: "Создано!"
+    deleted: "Удалено!"
+    input_all: "Заполните все поля!"
+    input_coordinates: "Укажите координаты для"
+    used: "использовано"
+    Not_set: "Не установлено"
+
+General:
+  Rank: "Ранг"
+  Coins: "Монеты"
+  Coin: "Монета"
+  Points: "Очки"
+  Point: "Очко"
+  Luck: "Удача"
+  Lure: "Приманка"
+  Statistics: "Статистика"
+  caught_fish: "Пойманные рыбы"
+
+Rank:
+  Player: "Player"
+  Beginner: "Beginner"
+  Newcomer: "Newcomer"
+  Advanced: "Advanced"
+  Experienced: "Experienced"
+  Master: "Master"
+  The_Legendary_Fisherman: "The Legendary Fisherman"
+
+placeholders:
+  Index_out_of_range: "Индекс вне диапазона"
+
+
+# *   Config version 1.1.0
+#
+#     JakubTools - Russian (Русский язык)
+#
+
+JakubTools_prefix: "JakubTools"
+
+JakubTools_admin:
+  invalid_gamemode_in_db: "Недопустимый режим игры в базе данных"
+
+
+# *   Config version 1.1.0
+#
+#     Fishing+ - Russian (Русский язык)
+#
+
+fishing_prefix: "Fishing+"
+
+fishing_admin:
+  reload: "reload"
+  only_player: "Эту команду может использовать только игрок"
+  this_only_in_fishing_area: "Эту команду можно использовать только в зоне рыбалки!"
+  not_enough_arguments: "Недостаточно аргументов!"
+  command_not_exist: "Команда не найдена!"
+  must_be_number: "Необходимо ввести допустимое число!"
+  more_than_600: "Более 600 секунд недоступно!"
+  already_have: "У вас уже включен один Debug!"
+  Registered: "Зарегистрировано: "
+  Not_found: "не найдено."
+  Player: "Игрок"
+  end: "Конец!"
+  items: "предметов."
+  all: "Всего"
+  will_end_in: "закончится через"
+  msg_01: "ВАУУУ... Похоже, ты взломал игру. .... А может, и нет. Ты добыл специальную зачарованную книгу. Стоимостью 100 очков/монет!"
+  msg_02: "О боже... Похоже, мне больше везёт, чем я могу понять, этот лут будет стоить как минимум в 10 раз больше очков/монет!!!"
+  msg_03: "Вау... Это отличный лут, он принесёт примерно в 3 раза больше очков/монет!"
+  msg_04: "Ах... это повреждённый лут, он принесёт как минимум в 2 раза меньше очков/монет..."
+
+Pirate:
+  name: "Пират"
+  time: "Появится через 10 секунд"
+  took_you: "взял у тебя"
+  didnt_took_you: "не взял у тебя ничего"
+  poins_coins: "Очки/Монеты."
+
+Hotbar:
+  Hotbar_item_Description: "Открывается выбросом или щелчком правой кнопкой мыши."
+  Fishing-rod: "Удочка"
+  Shop: "Рыболовный магазин"
+  Effects: "Эффекты"
+  Statistics: "Статистика"
+  Leave: "Выйти"
+
+Shop:
+  buy: "Покупка"
+  success: "Покупка совершена."
+  not_enough_coins: "Не хватает монет..."
+  Description: "Для покупки необходимо"
+  Next_level: "Следующий уровень"
+  Current_level: "Текущий уровень"
+  Max_level: "Ты достиг максимального уровня."
+
+Statistics:
+  Name: "Всего поймано"
+  Total_catch: "Всего поймано"
+  Value: "Значение"
+  Catch: "Ты поймал"
+
+Effects:
+  Name: "Эффекты"
+  Need_1: "Требуется"
+  Need_2: "Пойманных рыб"
+  locked: "Заблокировано"
+  unlocked: "Разблокировано"
+  active: "Активировано"

@@ -1,0 +1,74 @@
+# *   Config version 1.1.0
+# *   Minecraft versions:
+# *     Build: 1.21.11
+# *     Tested: 26.2, 26.1.x, 1.21.11-1.21.1
+
+# ?     JakubSasinkaCore - Custom Permissions
+
+# List of variable permissions:
+# jakubsasinkacore.*, jakubsasinkacore.admin, jakubsasinkacore.jsc, jakubsasinkacore.api, jakubsasinkacore.reload, jakubsasinkacore.holograms,
+# jakubsasinkacore.placeholders, jakubsasinkacore.connection, jakubsasinkacore.manage, jakubsasinkacore.user
+
+# Example:
+JakubSasinkaCore:
+  Commands_Reload:
+    - "jakubsasinkacore.*"
+    - "jakubsasinkacore.admin"
+    - "jakubsasinkacore.reload"
+
+  Commands_API:
+    - "jakubsasinkacore.*"
+    - "jakubsasinkacore.admin"
+    - "jakubsasinkacore.api"
+
+  Commands_Holograms:
+    - "jakubsasinkacore.*"
+    - "jakubsasinkacore.admin"
+    - "jakubsasinkacore.holograms"
+
+  Commands_Placeholders:
+    - "jakubsasinkacore.*"
+    - "jakubsasinkacore.admin"
+    - "jakubsasinkacore.placeholders"
+
+  Connection:
+    - "jakubsasinkacore.*"
+    - "jakubsasinkacore.admin"
+    - "jakubsasinkacore.connection"
+
+  Manage_All:
+    - "jakubsasinkacore.*"
+    - "jakubsasinkacore.admin"
+    - "jakubsasinkacore.manage"
+
+  JSC_Plugins:
+    - "jakubsasinkacore.*"
+    - "jakubsasinkacore.admin"
+    - "jakubsasinkacore.jsc"
+
+JakubTools:
+  GameMode:
+    - "jakubsasinkacore.*"
+    - "jakubsasinkacore.admin"
+    - "jakubtools.*"
+    - "jakubtools.admin"
+    - "jakubtools.gm"
+    - "jakubtools.gamemode"
+    - "jakubtools.gma"
+    - "jakubtools.gmc"
+    - "jakubtools.gms"
+    - "jakubtools.gmsp"
+
+  TempOP:
+    - "jakubsasinkacore.*"
+    - "jakubsasinkacore.admin"
+    - "jakubtools.*"
+    - "jakubtools.admin"
+    - "jakubtools.tempop"
+
+  Players:
+    - "jakubsasinkacore.*"
+    - "jakubsasinkacore.admin"
+    - "jakubtools.*"
+    - "jakubtools.admin"
+    - "jakubtools.players"

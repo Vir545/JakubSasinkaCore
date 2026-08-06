@@ -1,0 +1,234 @@
+# *   Config version 1.1.0
+#
+#     JakubSasinkaCore - Czech (Čeština)
+#
+
+# ??? Some translations may not be perfect; thank you for your understanding.
+# ??? Některé překlady nemusí být dokonalé; děkujeme za pochopení.
+
+
+prefix: "JakubSasinkaCore"
+no_permission: "Nemáte oprávnění k použití tohoto příkazu"
+
+admin:
+  reload: "config reloaded"
+  reload_error: "error"
+  only_player: "Tenhle příkaz může použít jenom hráč!"
+  not_enough_arguments: "Málo argumentů!"
+  command_not_exist: "Příkaz nenalezen!"
+  plugin_not_found: "Plugin nebyl nalezen"
+  must_be_number: "Musíte zadat platné číslo!"
+  Not_found: "nebyl nalezen."
+  Registered: "Registrováno: "
+  Player: "Hráč"
+  coming_soon: "Již brzy"
+  successful: "úspěšně"
+  Installed_Version: "Instalovaná Verze"
+  Support_Versions: "Podporované Verze"
+  successful_by: "successful by"
+  Website: "Webová stránka"
+  Currently_unavailable: "Momentálně nepřístupné"
+  player_not_found: "Hráč nebyl nalezen"
+  wrong_name: "Chybný název"
+  more_than_720: "Víc jak 720 minut není zpřístupněno!"
+  Currently_in_Development: "Aktuálně ve vývoji"
+  by: "od"
+  to: "až"
+  and: "a"
+  menu:
+    Plugins_GUI:
+      left_click: "Kliknutím levým"
+      right_click: "Klikněte pravým"
+      middle_click: "Klikněte prostředním"
+      to_open_website: "se dostanete na modrinth."
+      more_info: "pro více informací."
+      plugin_settings: "pro plugin nastavení."
+      isLanguageFile: "Jazykový soubor"
+      Value: "Hodnota"
+      Key: "Klíč"
+      Locked: "Zamčeno"
+      Enter_Value: "Zadejte novou hodnotu:"
+      Successful_new_value: "Nová hodnota úspěšně uložena"
+    Admin_GUI:
+      left_click: "Klikněte levým"
+      right_click: "Klikněte pravým"
+      middle_click: "Klikněte prostředním"
+      more_info: "pro více informací."
+      stats: "pro statistiky."
+      Information_book_name: "Informace"
+      Information_book_info_1: "Při kliknutí na jakékoliv se vymaže kompletně"
+      Information_book_info_2: "všechno z dané minihry."
+      Information_book_info_3: "Prosím, použijte pouze kdy je to potřeba, uložení"
+      Information_book_info_4: "zálohy před vymazáním, zatím nefunguje!"
+      Information_book_info_5: "Po vymazání dat, je uložen do logu, jméno Admina,"
+      Information_book_info_6: "datum a čas, který vymazal data!"
+      Credits_Created: "Vytvořil"
+      All_stats_name: "Všechny Statistiky"
+      All_stats_info_1: "Smazání všech dat v minihrách.!!"
+      All_stats_info_2: "Prosíme, buďte opatrní, nebo vymažete všechny statistiky,"
+      All_stats_info_3: "zálohy před vymazáním ještě nejsou k dispozici!"
+      Your_stats: "Tvoje minigames statistiky."
+      Players_name: "Hráči"
+      Players_info_1: "Výběr hráče, které chcete zobrazit."
+      Players_info_2: "Momentálně není funkční..."
+      Minigames_info_1: "Vyresetuje progress"
+      Minigames_info_2: "všech hráčů"
+      Minigames_info_3: "v minihře"
+      Progress_reset: "Progress vyresetován"
+    Player_GUI:
+      Information_book_name: "Informace"
+      Minigames_info_1: "Vyresetuje progress"
+      Minigames_info_2: "v minihře"
+      Back_to_Admin_GUI: "Vrátit se na Admin GUI"
+      Statistics: "Statistiky"
+      Statistics_for: "Statistiky pro"
+      Target_player_not_found: "Cílový hráč nebyl nalezen."
+      Info:
+        Fish_Caught: "Ulovených Ryb"
+        Time: "Čas"
+        SprintKm: "SprintKm"
+        SprintM: "SprintM"
+        Total_Meters: "Celkem Metrů"
+    Manage:
+      restriction_01: "Funkce mometálně nepřístupné do plného zprovoznění...., Přístup je mometálně funkční pro:"
+      value: "Hodnota"
+      caught: "Má chyceno"
+      total_caught: "Celkem Chyceno"
+      total_caught_02: "Má celkem chyceno"
+      ranking: "Pořadí"
+      last_page: "Předchozí stránka"
+      next_page: "Další stránka"
+      click_back: "Klikněte pro návrat"
+      click_continue: "Klikněte pro pokračování"
+      mode: "Režim"
+      total_players: "Celkem hráčů"
+      page: "Stránka"
+      player_not_found: "Hráč nebyl nalezen."
+      only_player: "Tuhle funkci může použít jenom hráč!"
+  file:
+    log_open: "otevřel Minigames GUI."
+    Error_save_01: "Chyba při ukládání"
+    Error_save_02: "zálohy!"
+    Error_save_03: "Neplatná logické hodnota."
+    Error_save_04: "Neplatné celé číslo."
+    Error_save_05: "Neplatné desetinné číslo."
+    Error_save_06: "Neplatné číslo."
+    Delete: "smazal"
+    Data: "data."
+    All_Data: "Všechny"
+    all: "Všechny"
+  Area:
+    wrong_minigame_name: "Špatný název minihry."
+    exist: "Tahle aréna již existuje."
+    not_exist: "Tahle aréna neexistuje!"
+    save: "Uložit"
+    click_to_save: "Klikněte pro uložení"
+    exit: "Odejít"
+    exit_editor: "Ukončit editor arény"
+    created: "vytvořeno!"
+    deleted: "smazána!"
+    input_all: "Vyplňte všechno!"
+    input_coordinates: "Vyplňte souřadnice pro"
+    used: "použito"
+    Not_set: "Není nastaveno"
+
+General:
+  Rank: "Rank"
+  Coins: "Coiny"
+  Coin: "Coin"
+  Points: "Body"
+  Point: "Bod"
+  Luck: "Luck"
+  Lure: "Lure"
+  Statistics: "Statistiky"
+  caught_fish: "Ulovených Ryb"
+
+Rank:
+  Player: "Hráč"
+  Beginner: "Začátečník"
+  Newcomer: "Nováček"
+  Advanced: "Pokročilý"
+  Experienced: "Zkušený"
+  Master: "Mistr"
+  The_Legendary_Fisherman: "Legendární Rybář"
+
+placeholders:
+  Index_out_of_range: "Index mimo rozsah"
+
+
+# *   Config version 1.1.0
+#
+#     JakubTools - Czech (Čeština)
+#
+
+JakubTools_prefix: "JakubTools"
+
+JakubTools_admin:
+  invalid_gamemode_in_db: "Neplatný gamemode v databázi"
+
+
+# *   Config version 1.1.0
+#
+#     Fishing+ - Czech (Čeština)
+#
+
+fishing_prefix: "Fishing+"
+
+fishing_admin:
+  reload: "reload"
+  only_player: "Tenhle příkaz může použít jenom hráč"
+  this_only_in_fishing_area: "Tento příkaz můžeš použít pouze v rybářské oblasti!"
+  not_enough_arguments: "Málo argumentů!"
+  command_not_exist: "Příkaz nenalezen!"
+  must_be_number: "Musíte zadat platné číslo!"
+  more_than_600: "Víc jak 600s není zpřístupněno!"
+  already_have: "Už máte zaplý jeden Debug!"
+  Registered: "Registrováno: "
+  Not_found: "nebyl nalezen."
+  Player: "Hráč"
+  end: "Konec!"
+  items: "předmětů."
+  all: "Celkově"
+  will_end_in: "skončí za"
+  msg_01: "WOOOOW... Teď to vypadá že jsi hacknul hru. .... A nebo vlastně ne. Vylovil jsi speciální Enchantovanou knihu. S hodnotou 100 Bodů/Coinů!"
+  msg_02: "Omg... Vypadá to že mám víc štěstí než rozumu, tento loot bude nejmíň za 10x tolik Bodů/Coinů!!!"
+  msg_03: "Wooa... Tohle je krásný kus lootu, to bude tak za 3x tolik Bodů/Coinů!"
+  msg_04: "Ahh... toto je poničený loot, to bude nejmíň 2x míň Bodů/Coinů..."
+
+Pirate:
+  name: "Pirate"
+  time: "Za 10 sekund se spawne"
+  took_you: "ti vzal"
+  didnt_took_you: "ti nevzal žádné"
+  poins_coins: "Body/Coiny."
+
+Hotbar:
+  Hotbar_item_Description: "Otevřeš Vyhozením nebo Pravým kliknutím."
+  Fishing-rod: "Rybářský Prut"
+  Shop: "Rybářský Obchod"
+  Effects: "Effekty"
+  Statistics: "Statistiky"
+  Leave: "Opustit"
+
+Shop:
+  buy: "Nákup"
+  success: "proběhl."
+  not_enough_coins: "Nedostatek coinů..."
+  Description: "Pro zakoupení je potřeba"
+  Next_level: "Další level"
+  Current_level: "Aktuální Level"
+  Max_level: "Máš maximální level."
+
+Statistics:
+  Name: "Celkem Chyceno"
+  Total_catch: "Máš celkem chyceno"
+  Value: "Hodnota"
+  Catch: "Máš chyceno"
+
+Effects:
+  Name: "Effekty"
+  Need_1: "Potřeba"
+  Need_2: "Ulovených Ryb"
+  locked: "Locked"
+  unlocked: "Unlocked"
+  active: "Aktivováno"
